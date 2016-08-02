@@ -1,0 +1,2 @@
+# pedon
+Identify os type.
