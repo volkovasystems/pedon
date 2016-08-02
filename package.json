@@ -1,0 +1,32 @@
+{
+  "name": "pedon",
+  "version": "0.0.0",
+  "description": "Identify os type.",
+  "main": "pedon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volkovasystems/pedon.git"
+  },
+  "keywords": [
+    "os.type",
+    "os",
+    "windows",
+    "osx",
+    "linux",
+    "pedon"
+  ],
+  "author": "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/volkovasystems/pedon/issues"
+  },
+  "homepage": "https://github.com/volkovasystems/pedon#readme",
+  "dependencies": {
+    "cobralize": "0.0.3",
+    "harden": "^0.3.2",
+    "shardize": "^0.2.1"
+  }
+}
