@@ -1,6 +1,6 @@
 {
   "name": "pedon",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Identify os type.",
   "main": "pedon.js",
   "scripts": {
@@ -19,14 +19,18 @@
     "pedon"
   ],
   "author": "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+  "contributors": [
+    "John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/volkovasystems/pedon/issues"
   },
   "homepage": "https://github.com/volkovasystems/pedon#readme",
   "dependencies": {
-    "cobralize": "^0.1.2",
-    "harden": "^0.3.5",
-    "shardize": "^0.3.1"
+    "cobralize": "^0.2.0",
+    "harden": "^0.7.0",
+    "protype": "^0.4.0",
+    "shardize": "^0.4.0"
   }
 }

@@ -34,6 +34,9 @@
 			"file": "pedon.js",
 			"module": "pedon",
 			"author": "Richeve S. Bebedor",
+			"contributors": [
+				"John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>"
+			],
 			"eMail": "richeve.bebedor@gmail.com",
 			"repository": "https://github.com/volkovasystems/pedon.git",
 			"test": "pedon-test.js",
@@ -56,17 +59,18 @@
 	@end-include
 */
 
-var cobralize = require( "cobralize" );
-var harden = require( "harden" );
-var os = require( "os" );
-var shardize = require( "shardize" );
+const cobralize = require( "cobralize" );
+const harden = require( "harden" );
+const os = require( "os" );
+const protype = require( "protype" );
+const shardize = require( "shardize" );
 
 harden( "WINDOWS", "windows" );
 harden( "OSX", "osx" );
 harden( "LINUX", "linux" );
 harden( cobralize( os.type( ) ), shardize( os.type( ), true ) );
 
-var pedon = function pedon( type ){
+const pedon = function pedon( type ){
 	/*;
 		@meta-configuration:
 			{
@@ -75,7 +79,7 @@ var pedon = function pedon( type ){
 		@end-meta-configuration
 	*/
 
-	if( typeof type == "string" ){
+	if( protype( type, STRING ) ){
 		return pedon( ) === type;
 	}
 
