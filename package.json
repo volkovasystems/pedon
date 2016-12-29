@@ -1,10 +1,10 @@
 {
   "name": "pedon",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Identify os type.",
   "main": "pedon.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha pedon-test.js"
   },
   "repository": {
     "type": "git",
@@ -29,8 +29,8 @@
   "homepage": "https://github.com/volkovasystems/pedon#readme",
   "dependencies": {
     "cobralize": "^0.2.0",
-    "harden": "^0.7.0",
-    "protype": "^0.4.0",
+    "harden": "^0.12.0",
+    "protype": "^0.7.0",
     "shardize": "^0.4.0"
   }
 }
