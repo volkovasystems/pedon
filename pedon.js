@@ -54,6 +54,7 @@
 			"cobralize": "cobralize",
 			"harden": "harden",
 			"os": "os",
+			"protype": "protype",
 			"shardize": "shardize"
 		}
 	@end-include
