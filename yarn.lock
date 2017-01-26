@@ -9,46 +9,40 @@ babel-runtime@^6.20.0, babel-runtime@^6.22.0:
     core-js "^2.4.0"
     regenerator-runtime "^0.10.0"
 
-cemento@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/cemento/-/cemento-0.5.0.tgz#20457d4c79a7768a2b4964d0e1527af4684e853e"
-  dependencies:
-    babel-runtime "^6.20.0"
-    harden "^0.12.0"
-
-cobralize@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/cobralize/-/cobralize-0.4.0.tgz#42e43cc548020442f8173f69f3d4400d7ed7a5d1"
+cemento@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/cemento/-/cemento-0.6.0.tgz#c1ef665ade24804e43d7588c67ea572a0c5423c9"
   dependencies:
     babel-runtime "^6.22.0"
-    disdo "^0.4.0"
-    falzy "^0.7.0"
-    protype "^0.8.0"
+    harden "^0.13.0"
+
+cobralize@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/cobralize/-/cobralize-0.5.0.tgz#71047bdb8a2bb9ab0172123188b893f8308ef6f5"
+  dependencies:
+    babel-runtime "^6.22.0"
+    disdo "^0.5.0"
+    falzy "^0.8.0"
+    protype "^0.9.0"
 
 core-js@^2.4.0:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.4.1.tgz#4de911e667b0eae9124e34254b53aea6fc618d3e"
 
-disdo@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/disdo/-/disdo-0.4.0.tgz#d8f0712088d152d13dd88f65323d858c543ff5f1"
+disdo@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/disdo/-/disdo-0.5.0.tgz#8e8af8291d25683f26c54e148efbe619957deaf4"
   dependencies:
-    babel-runtime "^6.20.0"
-    falzy "^0.7.0"
-    protype "^0.8.0"
+    babel-runtime "^6.22.0"
+    falzy "^0.8.0"
+    protype "^0.9.0"
 
-falzy@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/falzy/-/falzy-0.7.0.tgz#ed5a866d8e91b0ae6b7a4a207e289bbfe42af77f"
+falzy@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/falzy/-/falzy-0.8.0.tgz#3a7884fb916be17e9f376447b80782492c4527e5"
   dependencies:
-    babel-runtime "^6.20.0"
-    protype "^0.7.0"
-
-harden@^0.12.0:
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/harden/-/harden-0.12.0.tgz#b480d26d2d366a8d329cef724fb898fcbf195228"
-  dependencies:
-    babel-runtime "^6.20.0"
+    babel-runtime "^6.22.0"
+    protype "^0.9.0"
 
 harden@^0.13.0:
   version "0.13.0"
@@ -56,31 +50,23 @@ harden@^0.13.0:
   dependencies:
     babel-runtime "^6.20.0"
 
-protype@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/protype/-/protype-0.7.0.tgz#72d31005cb8d6abf2a6735049811d64770c3ede3"
+protype@^0.9.0:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/protype/-/protype-0.9.0.tgz#349f84d64955c199f4f1a62164f2a50aa04089f3"
   dependencies:
-    babel-runtime "^6.20.0"
-    cemento "^0.5.0"
-    harden "^0.12.0"
-
-protype@^0.8.0:
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/protype/-/protype-0.8.0.tgz#e22dec18bf4a9ba18ab57567704846bb85f7c7ca"
-  dependencies:
-    babel-runtime "^6.20.0"
-    cemento "^0.5.0"
-    harden "^0.12.0"
+    babel-runtime "^6.22.0"
+    cemento "^0.6.0"
+    harden "^0.13.0"
 
 regenerator-runtime@^0.10.0:
   version "0.10.1"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.10.1.tgz#257f41961ce44558b18f7814af48c17559f9faeb"
 
-shardize@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/shardize/-/shardize-0.6.0.tgz#f46513cef12f78688708cdcc96ce43db7918dbb4"
+shardize@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/shardize/-/shardize-0.7.0.tgz#dfcaaa099593b2037314e730170216f023bbb5dd"
   dependencies:
     babel-runtime "^6.22.0"
-    disdo "^0.4.0"
-    falzy "^0.7.0"
-    protype "^0.8.0"
+    disdo "^0.5.0"
+    falzy "^0.8.0"
+    protype "^0.9.0"
