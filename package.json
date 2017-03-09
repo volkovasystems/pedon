@@ -1,6 +1,6 @@
 {
   "name": "pedon",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "Identify os type.",
   "main": "pedon.js",
   "scripts": {
@@ -28,9 +28,9 @@
   },
   "homepage": "https://github.com/volkovasystems/pedon#readme",
   "dependencies": {
-    "cobralize": "^0.9.0",
+    "cobralize": "^0.10.0",
     "harden": "^0.17.0",
-    "protype": "^0.18.0",
-    "shardize": "^0.10.0"
+    "protype": "^0.19.0",
+    "shardize": "^0.11.0"
   }
 }
