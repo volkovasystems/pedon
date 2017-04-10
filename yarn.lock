@@ -17,12 +17,12 @@ cemento@^0.15.0:
     harden "^0.21.0"
     kount "^0.10.0"
 
-cobralize@^0.12.0:
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/cobralize/-/cobralize-0.12.0.tgz#056318f761f7aae9b92b8f7088fbe5ebab89749c"
+cobralize@^0.13.0:
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/cobralize/-/cobralize-0.13.0.tgz#d430dbdc0702aca889df50c7812f14a71c5a5283"
   dependencies:
     babel-runtime "^6.23.0"
-    disdo "^0.12.0"
+    disdo "^0.13.0"
     falzy "^0.17.0"
     protype "^0.21.0"
 
@@ -30,9 +30,9 @@ core-js@^2.4.0:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.4.1.tgz#4de911e667b0eae9124e34254b53aea6fc618d3e"
 
-disdo@^0.12.0:
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/disdo/-/disdo-0.12.0.tgz#f8c2c44255125ad4e614139fd888465c15ed80eb"
+disdo@^0.13.0:
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/disdo/-/disdo-0.13.0.tgz#cb999e639218aa2265e8c0bd8632337dd1c55418"
   dependencies:
     babel-runtime "^6.23.0"
     falzy "^0.17.0"
@@ -69,11 +69,11 @@ regenerator-runtime@^0.10.0:
   version "0.10.3"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.10.3.tgz#8c4367a904b51ea62a908ac310bf99ff90a82a3e"
 
-shardize@^0.13.0:
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/shardize/-/shardize-0.13.0.tgz#8972bf6e0787ccc76b190c4d14a2d8fc93f2274a"
+shardize@^0.14.0:
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/shardize/-/shardize-0.14.0.tgz#e52e5ba9f8338d49d27f5d1acd2fc5a9ce718c0e"
   dependencies:
     babel-runtime "^6.23.0"
-    disdo "^0.12.0"
+    disdo "^0.13.0"
     falzy "^0.17.0"
     protype "^0.21.0"
