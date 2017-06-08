@@ -1,5 +1,7 @@
-"use strict";
 
+const assert = require( "assert" );
 const pedon = require( "./pedon.js" );
 
-console.log( pedon( ) )
+assert.equal( pedon( ), "linux", "should have value 'linux'" );
+
+console.log( "ok" );
