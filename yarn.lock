@@ -9,34 +9,24 @@ babel-runtime@^6.23.0:
     core-js "^2.4.0"
     regenerator-runtime "^0.10.0"
 
-cemento@^0.16.0:
+cobralize@^0.16.0:
   version "0.16.0"
-  resolved "https://registry.yarnpkg.com/cemento/-/cemento-0.16.0.tgz#f01b603b50437b182fba2478c7882d13019e3638"
+  resolved "https://registry.yarnpkg.com/cobralize/-/cobralize-0.16.0.tgz#3cc3d18e34ff2f4317ef176fab4a0248a341c783"
   dependencies:
     babel-runtime "^6.23.0"
-    harden "^0.22.0"
-    kount "^0.11.0"
-
-cobralize@^0.15.0:
-  version "0.15.0"
-  resolved "https://registry.yarnpkg.com/cobralize/-/cobralize-0.15.0.tgz#bfa8874269a30e5ad8154d2f42e3fbf17c76c526"
-  dependencies:
-    babel-runtime "^6.23.0"
-    disdo "^0.15.0"
+    disdo "^0.16.0"
     falzy "^0.20.0"
-    protype "^0.22.0"
 
 core-js@^2.4.0:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.4.1.tgz#4de911e667b0eae9124e34254b53aea6fc618d3e"
 
-disdo@^0.15.0:
-  version "0.15.0"
-  resolved "https://registry.yarnpkg.com/disdo/-/disdo-0.15.0.tgz#169a6f490d41e4116328e85382a04d98307a320d"
+disdo@^0.16.0:
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/disdo/-/disdo-0.16.0.tgz#1e10a8aaa44e77c12de40c9f617bec02937df55b"
   dependencies:
     babel-runtime "^6.23.0"
     falzy "^0.20.0"
-    protype "^0.22.0"
 
 falzy@^0.20.0:
   version "0.20.0"
@@ -50,29 +40,14 @@ harden@^0.22.0:
   dependencies:
     babel-runtime "^6.23.0"
 
-kount@^0.11.0:
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/kount/-/kount-0.11.0.tgz#99775ed4a1b096e8ef5547f60d63e59f1d3e5b84"
-  dependencies:
-    babel-runtime "^6.23.0"
-
-protype@^0.22.0:
-  version "0.22.0"
-  resolved "https://registry.yarnpkg.com/protype/-/protype-0.22.0.tgz#b4929f8394747e031f92cfd08e9ec6ec8f6b85c1"
-  dependencies:
-    babel-runtime "^6.23.0"
-    cemento "^0.16.0"
-    harden "^0.22.0"
-
 regenerator-runtime@^0.10.0:
   version "0.10.5"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.10.5.tgz#336c3efc1220adcedda2c9fab67b5a7955a33658"
 
-shardize@^0.16.0:
-  version "0.16.0"
-  resolved "https://registry.yarnpkg.com/shardize/-/shardize-0.16.0.tgz#9e6e69a38281c698fae9551a4b07f46e53b374d4"
+shardize@^0.17.0:
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/shardize/-/shardize-0.17.0.tgz#4d2b8c21285d45eb3a7079c8d239455e2c04f160"
   dependencies:
     babel-runtime "^6.23.0"
-    disdo "^0.15.0"
+    disdo "^0.16.0"
     falzy "^0.20.0"
-    protype "^0.22.0"
